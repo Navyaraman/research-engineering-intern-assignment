@@ -1,22 +1,26 @@
-# 🤖 AI Reddit Analyzer  
+#  AI Reddit Analyzer  
 > **Powered by LLMs, BERTopic, and NLP — for Reddit trend exploration**
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **AI Reddit Analyzer** is an end-to-end NLP-powered dashboard built as part of the **SimPPL Research Engineering Intern assignment**.  
 It explores Reddit political discourse using **sentiment analysis, topic modeling, TextRank summarization, misinformation tagging**, and visual storytelling — all inside a clean **Streamlit** interface.
 
 ---
 
-## 🔗 Live App
+##  Live App
 
-🌐 [Launch the Streamlit Dashboard](https://navyaraman-research-engineering-intern-assignment.streamlit.app)
+🌐 [Launch the Streamlit Dashboard](https://research-engineering-intern-assignment.streamlit.app)
 
 ---
+## Demo Video
 
-## 🗂️ Project Structure
+[Click here to watch the demo on Google Drive](https://drive.google.com/file/d/1oRMqCMHVCsh3jJ7Ef9aaJ32F8FjR8Ywj/view?usp=drive_link)
+
+
+## Project Structure
 
 | File | Purpose |
 |------|---------|
@@ -29,16 +33,16 @@ It explores Reddit political discourse using **sentiment analysis, topic modelin
 
 ---
 
-## 🎯 Features
+##  Features
 
-### 📊 Visual Insights
+###  Visual Insights
 - 📅 **Time-Series Plot** – Reddit post volume over time
 - 😊 **Sentiment Pie Chart** – VADER-based sentiment
 - 🏆 **Top Subreddits** – Most active political communities
 - 🌍 **Most Shared Domains** – Source credibility tracking
 - 💬 **Word Cloud** – Dominant discussion terms
 
-### 🧠 AI & NLP Modules
+###  AI & NLP Modules
 - **Sentiment Analysis** using VADER (NLTK)
 - **Topic Modeling** with BERTopic
 - **Summarization** using TextRank (`sumy`)
@@ -47,7 +51,7 @@ It explores Reddit political discourse using **sentiment analysis, topic modelin
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard Overview
 ![Dashboard Main](IMAGE1.png)
@@ -58,7 +62,7 @@ It explores Reddit political discourse using **sentiment analysis, topic modelin
 
 ---
 
-## 🧠 Thought Process & Design
+## Thought Process & Design
 
 - 🧪 VADER was used due to its suitability for social media sentiment
 - 🔍 BERTopic captures nuanced themes using embeddings + c-TFIDF
@@ -69,7 +73,7 @@ The system is built for **scalability, interpretability, and insight generation*
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - 📥 Reddit posts in `.jsonl` format  
 - 🔗 [Download Sample Data](https://drive.google.com/file/d/1XHtTnUpTjUIIREKGF8ETaZ_hEtxtPJWY/view?usp=drive_link)
@@ -78,7 +82,7 @@ The system is built for **scalability, interpretability, and insight generation*
 
 ---
 
-## 🛠️ Run Locally
+##  Run Locally
 
 ```bash
 # Clone the repo
